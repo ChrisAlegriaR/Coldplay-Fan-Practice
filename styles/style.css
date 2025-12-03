@@ -244,6 +244,21 @@ main{
     right: 0.4vw;
 }
 
+.a-film-for-the-future-section{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    margin-top: 10vw;
+}
+
+.a-film-for-the-future-section img{
+    width: 100%;
+}
+
+
+
+
+
 /* ~Footer */
 footer{
     opacity: 1;
