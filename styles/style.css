@@ -245,13 +245,30 @@ main{
 }
 
 .a-film-for-the-future-section{
-    height: 100vh;
     width: 100%;
-    background-color: red;
-    margin-top: 10vw;
+    margin-top: 3vw;
 }
 
-.a-film-for-the-future-section img{
+.a-film-for-the-future-section div:first-child{
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+}
+
+.a-film-for-the-future-section div:first-child img{
+    height: 10vw;
+    z-index: 1;
+}
+
+.a-film-for-the-future-section div:nth-child(2){
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.a-film-for-the-future-section div:nth-child(2) img{
     width: 100%;
 }
 
