@@ -244,9 +244,12 @@ main{
     right: 0.4vw;
 }
 
+/* ^AFFTF Section */
 .a-film-for-the-future-section{
     width: 100%;
     margin-top: 3vw;
+    position: relative;
+    padding-top: 50px;
 }
 
 .a-film-for-the-future-section div:first-child{
@@ -254,15 +257,16 @@ main{
     position: absolute;
     justify-content: center;
     display: flex;
+    top: 0;
 }
 
 .a-film-for-the-future-section div:first-child img{
-    height: 10vw;
+    height: 11vw;
     z-index: 1;
 }
 
 .a-film-for-the-future-section div:nth-child(2){
-    height: 100vh;
+    height: 102vh;
     overflow: hidden;
     display: flex;
     align-items: center;
