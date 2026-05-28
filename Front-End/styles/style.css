@@ -140,12 +140,12 @@ main{
 .initial-banner div:nth-child(2){
     font-size: 20.4px;
     letter-spacing: -0.05rem;
-    margin-top: 1.25vw;
+    margin-top: 16.25px;
     padding: 0;
 }
 
 .initial-banner div:nth-child(3) img{
-    height: 1.85vw;
+    height: 23.5px;
     margin-top: 14.5%;
 }
 
@@ -261,24 +261,15 @@ main{
 }
 
 .a-film-for-the-future-section div:first-child img{
-    height: 11vw;
+    height: 150px;
     z-index: 1;
 }
 
-.a-film-for-the-future-section div:nth-child(2){
-    height: 102vh;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-}
+
 
 .a-film-for-the-future-section div:nth-child(2) img{
     width: 100%;
 }
-
-
-
-
 
 /* ~Footer */
 footer{
@@ -426,21 +417,12 @@ footer{
         width: 98vw;
     }
 
-    /* .initial-banner div:nth-child(1) img{
-        width: 72.5vw;
-        margin-top: 4.3vh;
-    } */
-
-    /* .initial-banner div:nth-child(2){
-        font-size: 2.5vw;
-        font-weight: 0;
-        letter-spacing: -0.03rem;
-        margin-top: 3vh;
-    } */
-
+    .initial-banner{
+        height: auto;
+    }
+    
     .initial-banner div:nth-child(3) img{
-        height: 3.04vw;
-        width: 18.04vw;
+        height: 23.5px;
         margin-top: 14.5%;
     }
 
@@ -450,10 +432,19 @@ footer{
 
     /* ^Merch Section */
     .merch-section{
-        margin-top: 50px;
+        margin-top: 5vw;
+    }
+
+    .merch-section div{
+        width: au;
+    }
+
+    /* ^AFFTF Section */
+    .a-film-for-the-future-section{
+        height: auto;
+    }
+
+    .a-film-for-the-future-section div:nth-child(2){
+        margin-top: 0;
     }
 }   
-
-
-
-
