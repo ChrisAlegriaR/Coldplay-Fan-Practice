@@ -199,7 +199,7 @@ main{
 
 .merch-section>div>div>p{
     width: 85%;
-    font-size: 15.2px;
+    font-size: 1.15vw;
     margin: 0 0 1.9vw 0;
     display: flex;
     justify-content: center;
@@ -208,7 +208,7 @@ main{
 
 .merch-section>div>div>button{
     width: auto;
-    font-size: 0.95rem;
+    font-size: 1.15vw;
     margin: 0 0 1.45vw 0;
     padding: 0 2.1vw;
     height: 8%;
@@ -433,10 +433,6 @@ footer{
     /* ^Merch Section */
     .merch-section{
         margin-top: 5vw;
-    }
-
-    .merch-section div{
-        width: au;
     }
 
     /* ^AFFTF Section */
