@@ -164,8 +164,8 @@ main{
     position: relative;
 }
 .merch-section>div{
-    height: 25.9vw;
-    width: 98.9vw;
+    height: 56vh;
+    width: 213.33vh;
     display: flex;
     align-items: flex-end;
     overflow: scroll;
@@ -179,7 +179,7 @@ main{
     height: 97.5%;
     font-size: 0.95rem;
     flex: 0 0 19.25%;
-    margin: 0 0.24vw 0 0.23vw;
+    margin: 0 0.51vh 0 0.51vh;
     background-color: #003463;
     transition: height 0.27s, background-color 0.27s;
     display: flex;
@@ -193,14 +193,14 @@ main{
 
 .merch-section>div>div>img{
     width: 78.5%;
-    margin: 8% 0 1vw 0;
+    margin: 8% 0 2.1vh 0;
 }
 
 .merch-section>div>div>p{
     width: 85%;
     height: 11%;
-    font-size: 1.15vw;
-    margin: 0 0 1.9vw 0;
+    font-size: 2.48vh;
+    margin: 0 0 3.9vh 0;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -208,9 +208,9 @@ main{
 
 .merch-section>div>div>button{
     width: auto;
-    font-size: 1.15vw;
-    margin: 0 0 1.45vw 0;
-    padding: 0 2.1vw;
+    font-size: 2.48vh;
+    margin: 0 0 3.2vh 0;
+    padding: 0 4.55vh;
     height: 8%;
     color: #fff855;
     background-color: transparent;
@@ -220,8 +220,8 @@ main{
 }
 
 .merch-section>div:nth-child(2), .merch-section>div:nth-child(3){
-    width: 2.4vw;
-    height: 2.4vw;
+    width: 5.2vh;
+    height: 5.3vh;
     position: absolute;
     top: 50%;
     cursor: pointer;
@@ -229,19 +229,19 @@ main{
 }
 
 .merch-section>div:nth-child(2){
-    left: 0.6vw;
+    left: 1.3vh;
 }
 
 .merch-section>div:nth-child(3){
-    right: 0.6vw;
+    right: 1.3vh;
 }
 
 .merch-section>div:nth-child(2):hover{
-    left: 0.4vw;
+    left: 0.8vh;
 }
 
 .merch-section>div:nth-child(3):hover{
-    right: 0.4vw;
+    right: 0.8vh;
 }
 
 /* ^AFFTF Section */
@@ -268,12 +268,12 @@ main{
 .a-film-for-the-future-section div:nth-child(2){
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 90vw;
+    width: 20%;
+    /* height: 97vw; */
 }
 
 .a-film-for-the-future-section div:nth-child(2) img{
-    height: 100%;
+    /* height: 100%; */
 }
 
 /* ~Footer */
@@ -441,11 +441,4 @@ footer{
     }
 
     /* ^AFFTF Section */
-    .a-film-for-the-future-section{
-        height: auto;
-    }
-
-    .a-film-for-the-future-section div:nth-child(2){
-        margin-top: 0;
-    }
-}   
+}
