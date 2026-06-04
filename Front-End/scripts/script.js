@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // !General width Script.
-// ~Width Dinamic Resize 
+// ~Width Dinamic Resize.
 // &Funcion para el ajuste automatico de elementos de manera responsiva segun el tamaño de pantalla.
 function resizeAutoLecture(){
     let screenWidth = window.innerWidth;
@@ -26,8 +26,8 @@ window.addEventListener('resize', function (){
     resizeAutoLecture();
 });
 
-// ~Carousel 
-// ^Change And movement of elements
+// ~Carousel.
+// ^Change And movement of elements.
 // &Declaracion de variables del carrucel asi como de los botones para cambio de elementos.
 const carousel = document.getElementsByClassName('merch-section')[0].getElementsByTagName('div')[0];
 const carouselBackButton = document.getElementsByClassName('carousel-back-button')[0];
@@ -60,7 +60,7 @@ carouselBackButton.addEventListener('click', function(){
     });
 });
 
-// ^Hover on elements
+// ^Hover on elements.
 // &Declaracion de variables las cuales obtienen los elementos dentro del carrucel, asi como sus botones. 
 const carouselNodeElements = document.querySelectorAll('.merch-section > div > div');
 const carouselElements = Array.from(carouselNodeElements);
@@ -86,9 +86,29 @@ carouselElements.forEach(element => {
 // &Recorre los elementos un poco hacia la derecha para que esten centrados.
 carousel.scrollLeft += 250;
 
+// ~AFFTF Video.
+// ^AFFTF Video Reproduction.
+// &Sustituye el video AFFTF la fotografia de cover, por lo que una vez que se cliclea sobre el texto de reproduccion se mostrara el video reproduciendolo y ocultando el cover.
+const playAFFTFVideo = () => {
+    
+}
+
+// ^Svg Reaction With Hover.
+const AFFTFSvg = document.getElementsByClassName('AFFTFSvg')[0];
+
+const hoverOnAFFTF = () => {
+    // Escala el SVG a 1.36 veces su tamaño original (aproximadamente 15px)
+    AFFTFSvg.style.transform = 'scale(1.33)'; 
+}
+
+const hoverOutAFFTF = () => {
+    // Regresa a su escala normal
+    AFFTFSvg.style.transform = 'scale(1)'; 
+}
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // !Width 899px Script.
-// ~Navegation Menu Dropdown
+// ~Navegation Menu Dropdown.
 function navegationMenuDropdown(){
     let navegationDropdownActivation = document.getElementById('navegation-menu-element').textContent;
 

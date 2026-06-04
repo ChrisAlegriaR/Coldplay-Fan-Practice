@@ -293,38 +293,37 @@ main{
     z-index: 1;
 }
 
-.a-film-for-the-future-section>div:nth-child(3)>div div{
+.a-film-for-the-future-section>div:nth-child(3)>div>div div{
     width: 100%;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }   
 
-.a-film-for-the-future-section>div:nth-child(3)>div>div>p{
+.a-film-for-the-future-section>div:nth-child(3)>div>div>div>p{
     cursor: pointer;
     width: 100vw;
     text-align: center;
     margin: 0;
 }
 
-.a-film-for-the-future-section>div:nth-child(3)>div>div:nth-child(1)>p{
+.a-film-for-the-future-section>div:nth-child(3)>div>div{
+    cursor: pointer;
+    width: 100%;
     padding-top: 22px;
-}
-
-.a-film-for-the-future-section>div:nth-child(3)>div>div:nth-child(2)>p{
     padding-bottom: 22px;
 }
 
-
-.a-film-for-the-future-section>div:nth-child(3)>div>div:nth-child(1){
+.a-film-for-the-future-section>div:nth-child(3)>div>div>div:nth-child(1){
     margin-bottom: 0.5vh;
 }
 
-.a-film-for-the-future-section>div:nth-child(3)>div>div:nth-child(2){
+.a-film-for-the-future-section>div:nth-child(3)>div>div>div:nth-child(2){
     margin-bottom: 2.9vh;
 }
 
-.a-film-for-the-future-section>div:nth-child(3)>div>div:nth-child(2)>p>svg{
+.a-film-for-the-future-section>div:nth-child(3)>div>div>div:nth-child(2)>p>svg{
     margin-right: 9px;
+    transition: transform 0.3s;
 }
 
 .a-film-for-the-future-section>div:nth-child(4){
