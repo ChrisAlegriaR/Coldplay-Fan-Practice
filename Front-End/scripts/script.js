@@ -96,13 +96,12 @@ const playAFFTFVideo = () => {
 // ^Svg Reaction With Hover.
 const AFFTFSvg = document.getElementsByClassName('AFFTFSvg')[0];
 
+// Escala el SVG a 1.36 veces su tamaño original (aproximadamente 15px)
 const hoverOnAFFTF = () => {
-    // Escala el SVG a 1.36 veces su tamaño original (aproximadamente 15px)
     AFFTFSvg.style.transform = 'scale(1.33)'; 
 }
 
 const hoverOutAFFTF = () => {
-    // Regresa a su escala normal
     AFFTFSvg.style.transform = 'scale(1)'; 
 }
 

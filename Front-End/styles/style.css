@@ -280,8 +280,19 @@ main{
 
 .a-film-for-the-future-section>div:nth-child(2) img{
     width: 99%;
+    visibility: hidden;
 }
 
+.a-film-for-the-future-section>div:nth-child(2) video{
+    width: 99%;
+    visibility: visible;
+}
+
+
+.a-film-for-the-future-section>div:nth-child(2) {
+    width: 99%;
+    visibility: visible;
+}
 .a-film-for-the-future-section>div:nth-child(3){
     width: 100%;
     position: absolute;
