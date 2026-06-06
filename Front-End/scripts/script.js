@@ -90,7 +90,6 @@ carousel.scrollLeft += 250;
 // ^AFFTF Video Reproduction.
 // &Sustituye la fotografia de cover por el video AFFTF, por lo que una vez que se cliclea sobre el texto de reproduccion se mostrara el video reproduciendolo y ocultando el cover y sus elementos mediante visibility y opacity.
 const playAFFTFVideo = () => {
-    // const secondDivContainer = document.querySelector('.a-film-for-the-future-section>div:nth-child(2)');
     const AFFTFHeart = document.getElementById('afftf-heart');
     const AFFTFCover = document.getElementById('afftf-cover');
     const AFFTFVideo = document.getElementById('afftf-video');
@@ -102,7 +101,6 @@ const playAFFTFVideo = () => {
         element.style.visibility = 'hidden';
     }
 
-    // secondDivContainer.style.height = '101vh'
     AFFTFHeart.style.visibility = 'hidden';
     AFFTFHeart.style.opacity = '0';
     AFFTFCover.style.visibility = 'hidden';
