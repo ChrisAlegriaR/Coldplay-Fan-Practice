@@ -88,19 +88,40 @@ carousel.scrollLeft += 250;
 
 // ~AFFTF Video.
 // ^AFFTF Video Reproduction.
-// &Sustituye el video AFFTF la fotografia de cover, por lo que una vez que se cliclea sobre el texto de reproduccion se mostrara el video reproduciendolo y ocultando el cover.
+// &Sustituye la fotografia de cover por el video AFFTF, por lo que una vez que se cliclea sobre el texto de reproduccion se mostrara el video reproduciendolo y ocultando el cover y sus elementos mediante visibility y opacity.
 const playAFFTFVideo = () => {
-    
+    const AFFTFHeart = document.getElementById('afftf-heart');
+    const AFFTFCover = document.getElementById('afftf-cover');
+    const AFFTFVideo = document.getElementById('afftf-video');
+    const AFFTFLetters = document.getElementsByClassName('afftf-letters');
+    const AFFTFShadow = document.getElementById('afftf-shadow');
+
+    for (const element of AFFTFLetters) {
+        element.style.opacity = '0';
+        element.style.visibility = 'hidden';
+    }
+
+    AFFTFHeart.style.visibility = 'hidden';
+    AFFTFHeart.style.opacity = '0';
+    AFFTFCover.style.visibility = 'hidden';
+    AFFTFCover.style.opacity = '0';
+    AFFTFVideo.style.visibility = 'visible';
+    AFFTFVideo.style.opacity = '1';
+    AFFTFShadow.style.visibility = 'hidden';
+    AFFTFShadow.style.opacity = '0';
+
+    AFFTFVideo.play();
 }
 
 // ^Svg Reaction With Hover.
 const AFFTFSvg = document.getElementsByClassName('AFFTFSvg')[0];
 
-// Escala el SVG a 1.36 veces su tamaño original (aproximadamente 15px)
+// &Aumenta el tamaño del SVG a 1.33 veces su tamaño original (aproximadamente 15px), cuando se hace hover en la sección.
 const hoverOnAFFTF = () => {
     AFFTFSvg.style.transform = 'scale(1.33)'; 
 }
 
+// &Restaura el tamaño del SVG a su tamaño original, cuando se deja de hacer hover en la sección.
 const hoverOutAFFTF = () => {
     AFFTFSvg.style.transform = 'scale(1)'; 
 }

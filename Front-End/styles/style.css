@@ -265,9 +265,11 @@ main{
 }
 
 .a-film-for-the-future-section>div:first-child img{
-    visibility: hidden;
+    visibility: visible;
+    opacity: 1;
     height: 150px;
     z-index: 1;
+    transition: opacity 0.5s, visibility 0.5s;
 }
 
 .a-film-for-the-future-section>div:nth-child(2){
@@ -281,21 +283,25 @@ main{
 }
 
 .a-film-for-the-future-section>div:nth-child(2) img{
+    visibility: visible;
+    opacity: 1;
     width: 99%;
-    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
 }
 
 .a-film-for-the-future-section>div:nth-child(2) video{
+    visibility: hidden;
+    opacity: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 87%;
+    width: 83%;
     height: auto;
+    transition: opacity 0.5s, visibility 0.5s;
 }
 
 .a-film-for-the-future-section>div:nth-child(3){
-    visibility: hidden;
     width: 100%;
     position: absolute;
     justify-content: center;
@@ -307,10 +313,13 @@ main{
 }
 
 .a-film-for-the-future-section>div:nth-child(3)>div>div div{
-    visibility: hidden;
+    visibility: visible;
+    opacity: 1;
     width: 100%;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    transition: opacity 0.5s, visibility 0.5s;
+
 }   
 
 .a-film-for-the-future-section>div:nth-child(3)>div>div>div>p{
@@ -341,12 +350,14 @@ main{
 }
 
 .a-film-for-the-future-section>div:nth-child(4){
-    visibility: hidden;
+    visibility: visible;
+    opacity: 1;
     bottom: 0;
     position: absolute;
     width: 100%;
     height: 51vh;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    transition: opacity 0.5s, visibility 0.5s;
 }
 
 /* ~Footer */
