@@ -451,6 +451,7 @@
         font-weight: bold;
         margin-top: 14px;
         margin-bottom: 39px;
+        transition: color 0.3s;
     }
 
     .news-section>div:nth-child(2)>a>div>div:nth-child(2)>div{
@@ -466,6 +467,7 @@
         line-height: 25px;
         text-transform: uppercase;
         color: white;
+        transition: color 0.3s;
     }
 
     .news-section>div:nth-child(2)>a>div>div:nth-child(2)>div>div{
