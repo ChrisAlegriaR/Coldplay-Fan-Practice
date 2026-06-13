@@ -450,7 +450,7 @@
         font-family: 'louize';
         font-weight: bold;
         margin-top: 14px;
-        margin-bottom: 39px;
+        margin-bottom: 0;
         transition: color 0.3s;
     }
 
@@ -468,6 +468,9 @@
         text-transform: uppercase;
         color: white;
         transition: color 0.3s;
+        position: relative;
+        top: 39px;
+        transition: top 0.2s linear;
     }
 
     .news-section>div:nth-child(2)>a>div>div:nth-child(2)>div>div{
@@ -479,6 +482,10 @@
     .news-section>div:nth-child(2)>a>div:hover>div:nth-child(2)>p{
         color: rgb(226, 226, 226);
     } 
+
+    .news-section>div:nth-child(2)>a>div:hover>div:nth-child(2)>div>p{
+        top: 35.5px;
+    }
 
     .news-section>div:nth-child(2)>a:nth-child(1)>div:hover>div:nth-child(2)>div>p{
         color: #e5a854;
