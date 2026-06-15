@@ -475,13 +475,7 @@
         transition: color 0.3s;
         position: relative;
         top: 39px;
-        transition: top 0.18s linear;
-    }
-
-    .news-section>div:nth-child(2)>a>div>div:nth-child(2)>div>div{
-        position: absolute;
-        background-color: #9655FF;
-        width: 20%;
+        transition: top 0.16s linear;
     }
 
     .news-section>div:nth-child(2)>a>div:hover>div:nth-child(2)>p{
@@ -508,6 +502,12 @@
         color: #4fccf3;
     } 
 
+    .news-section>div:nth-child(2)>a>div>div:nth-child(2)>div>div{
+        background-color: #9655FF;
+        bottom: 30px;
+        right: 0;
+        position: absolute;
+    }
 
     /* ~Footer */
     footer{
