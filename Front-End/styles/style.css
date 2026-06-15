@@ -394,6 +394,11 @@
         height: 74.5vh;
         width: 51.58vh;
         margin: 0 3px 0 3px;
+        transition: background-color 0.28s linear;
+    }
+
+    .news-section>div:nth-child(2)>a>div:hover{
+        background-color: #00294e;
     }
 
     .news-section>div:nth-child(2)>a>div>div:first-child{
@@ -412,7 +417,7 @@
         width: 100.5%;
         height: auto;
         z-index: 0;
-        transition: filter 0.4s ease;
+        transition: filter 0.28s ease;
     }
 
     .news-section>div:nth-child(2)>a>div>div>img {
@@ -420,7 +425,7 @@
         height: auto;
         display: block;
         filter: saturate(1.6) contrast(1.29) brightness(0.80); 
-        transition: filter 0.23s; 
+        transition: filter 0.15s; 
     }
 
     .news-section>div:nth-child(2)>a>div:hover>div:first-child>img{
@@ -451,7 +456,7 @@
         font-weight: bold;
         margin-top: 14px;
         margin-bottom: 0;
-        transition: color 0.3s;
+        transition: color 0.28s;
     }
 
     .news-section>div:nth-child(2)>a>div>div:nth-child(2)>div{
@@ -470,7 +475,7 @@
         transition: color 0.3s;
         position: relative;
         top: 39px;
-        transition: top 0.2s linear;
+        transition: top 0.18s linear;
     }
 
     .news-section>div:nth-child(2)>a>div>div:nth-child(2)>div>div{
@@ -484,7 +489,7 @@
     } 
 
     .news-section>div:nth-child(2)>a>div:hover>div:nth-child(2)>div>p{
-        top: 35.5px;
+        top: 35px;
     }
 
     .news-section>div:nth-child(2)>a:nth-child(1)>div:hover>div:nth-child(2)>div>p{
