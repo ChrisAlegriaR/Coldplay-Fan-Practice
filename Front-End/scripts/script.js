@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // !General width Script.
-// ~Width Dinamic Resize 
+// ~Width Dinamic Resize.
 // &Funcion para el ajuste automatico de elementos de manera responsiva segun el tamaño de pantalla.
 function resizeAutoLecture(){
     let screenWidth = window.innerWidth;
@@ -26,8 +26,8 @@ window.addEventListener('resize', function (){
     resizeAutoLecture();
 });
 
-// ~Carousel 
-// ^Change And movement of elements
+// ~Carousel.
+// ^Change And movement of elements.
 // &Declaracion de variables del carrucel asi como de los botones para cambio de elementos.
 const carousel = document.getElementsByClassName('merch-section')[0].getElementsByTagName('div')[0];
 const carouselBackButton = document.getElementsByClassName('carousel-back-button')[0];
@@ -60,7 +60,7 @@ carouselBackButton.addEventListener('click', function(){
     });
 });
 
-// ^Hover on elements
+// ^Hover on elements.
 // &Declaracion de variables las cuales obtienen los elementos dentro del carrucel, asi como sus botones. 
 const carouselNodeElements = document.querySelectorAll('.merch-section > div > div');
 const carouselElements = Array.from(carouselNodeElements);
@@ -86,9 +86,49 @@ carouselElements.forEach(element => {
 // &Recorre los elementos un poco hacia la derecha para que esten centrados.
 carousel.scrollLeft += 250;
 
+// ~AFFTF Video.
+// ^AFFTF Video Reproduction.
+// &Sustituye la fotografia de cover por el video AFFTF, por lo que una vez que se cliclea sobre el texto de reproduccion se mostrara el video reproduciendolo y ocultando el cover y sus elementos mediante visibility y opacity.
+const playAFFTFVideo = () => {
+    const AFFTFHeart = document.getElementById('afftf-heart');
+    const AFFTFCover = document.getElementById('afftf-cover');
+    const AFFTFVideo = document.getElementById('afftf-video');
+    const AFFTFLetters = document.getElementsByClassName('afftf-letters');
+    const AFFTFShadow = document.getElementById('afftf-shadow');
+
+    for (const element of AFFTFLetters) {
+        element.style.opacity = '0';
+        element.style.visibility = 'hidden';
+    }
+
+    AFFTFHeart.style.visibility = 'hidden';
+    AFFTFHeart.style.opacity = '0';
+    AFFTFCover.style.visibility = 'hidden';
+    AFFTFCover.style.opacity = '0';
+    AFFTFVideo.style.visibility = 'visible';
+    AFFTFVideo.style.opacity = '1';
+    AFFTFShadow.style.visibility = 'hidden';
+    AFFTFShadow.style.opacity = '0';
+
+    AFFTFVideo.play();
+}
+
+// ^Svg Reaction With Hover.
+const AFFTFSvg = document.getElementsByClassName('AFFTFSvg')[0];
+
+// &Aumenta el tamaño del SVG a 1.33 veces su tamaño original (aproximadamente 15px), cuando se hace hover en la sección.
+const hoverOnAFFTF = () => {
+    AFFTFSvg.style.transform = 'scale(1.33)'; 
+}
+
+// &Restaura el tamaño del SVG a su tamaño original, cuando se deja de hacer hover en la sección.
+const hoverOutAFFTF = () => {
+    AFFTFSvg.style.transform = 'scale(1)'; 
+}
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // !Width 899px Script.
-// ~Navegation Menu Dropdown
+// ~Navegation Menu Dropdown.
 function navegationMenuDropdown(){
     let navegationDropdownActivation = document.getElementById('navegation-menu-element').textContent;
 
