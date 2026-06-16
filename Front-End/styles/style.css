@@ -362,7 +362,7 @@
 
     /* ^News Section */
     .news-section>div:first-child{
-        width: 98.8vw;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -391,10 +391,10 @@
     }
 
     .news-section>div:nth-child(2)>a>div{
-        background-color: #003463;
         height: 34.5vw;
         width: 51.58vh;
         margin: 0 3px 0 3px;
+        background-color: #003463;
         transition: background-color 0.28s linear;
     }
 
