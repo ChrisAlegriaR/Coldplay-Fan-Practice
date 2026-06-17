@@ -416,8 +416,8 @@
     }
     
     .news-section>div:nth-child(2)>a>div>div>img {
-        width: 51.8vh;
-        height: auto;
+        width: auto;
+        height: 51.8vh;
         display: block;
         filter: saturate(1.6) contrast(1.29) brightness(0.80); 
         z-index: 0;
