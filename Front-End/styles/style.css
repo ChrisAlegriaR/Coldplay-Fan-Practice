@@ -455,10 +455,8 @@
     }
 
     .news-section>div:nth-child(2)>a>div>div:nth-child(2)>div{
-        /* width: 100%; */
-        height: 9.5vw;
+        height: 7.84rem;
         bottom: 0;
-        background-color: red;
     }
 
     .news-section>div:nth-child(2)>a>div>div:nth-child(2)>div>p{
