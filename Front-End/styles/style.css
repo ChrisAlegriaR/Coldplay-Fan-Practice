@@ -511,6 +511,28 @@
         opacity: 1;
     }
 
+/* ^World Tour Section. */
+.world-tour-section {
+    height: 10.8rem;
+    padding: 0 1vw;
+    margin: 0;
+}
+
+.world-tour-section > div:first-child {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.world-tour-section > div:first-child > img {
+    width: 100%;
+    height: 100%;
+    display: block; 
+    object-fit: cover;  
+    object-position: 72% center;
+    transform: scale(1.013);
+}
 
     /* ~Footer */
     footer{
