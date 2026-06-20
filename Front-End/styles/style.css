@@ -579,7 +579,7 @@
         right: 10.5%;
     }
 
-    .world-tour-section>div:nth-child(4)>img{
+    .world-tour-section>div:nth-child(4)>a>img{
         height: 2.45vw;
     }
 
@@ -589,7 +589,7 @@
         right: 1.7%;
     }
 
-    .world-tour-section>div:nth-child(5)>img{
+    .world-tour-section>div:nth-child(5)>a>img{
         height: 2.45vw;
     }
 
