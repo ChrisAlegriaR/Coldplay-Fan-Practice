@@ -571,6 +571,25 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: width 0.11s linear;
+        display: flex;
+        align-items: center;
+    }
+
+    .world-tour-section>div:nth-child(3)>p{
+        background-color: red;
+        position: absolute;
+        left: 0;
+    }
+
+    .world-tour-section>div:nth-child(3)>div{
+        background-color: red;
+        position: absolute;
+        left: 0;
+    }
+
+    .world-tour-section>div:nth-child(3):hover{
+        width: 16.60%;
     }
 
     .world-tour-section>div:nth-child(4){
