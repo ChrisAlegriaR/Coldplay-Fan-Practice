@@ -515,7 +515,7 @@
     .world-tour-section {
         height: 10.75rem;
         padding: 0 1vw;
-        margin: 0;
+        margin: 0 0 7vh 0;
         position: relative;
     }
 
@@ -557,10 +557,9 @@
         margin: 0 0 0.4% 0;
     }
 
-    /* Editing */
     .world-tour-section>div:nth-child(3){
         height: 16%;
-        width: 16.35%;
+        width: 13.3rem;
         position: absolute;
         bottom: 4%;
         left: 1.8%;
@@ -571,25 +570,38 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: width 0.11s linear;
         display: flex;
         align-items: center;
-    }
-
-    .world-tour-section>div:nth-child(3)>p{
-        background-color: red;
-        position: absolute;
-        left: 0;
-    }
-
-    .world-tour-section>div:nth-child(3)>div{
-        background-color: red;
-        position: absolute;
-        left: 0;
+        justify-content: center;
+        transition: width 0.14s ease-out;
+        cursor: pointer;
     }
 
     .world-tour-section>div:nth-child(3):hover{
         width: 16.60%;
+    }
+
+    .world-tour-section>div:nth-child(3)>p{
+        position: absolute;
+        left: 2.5rem;
+    }
+    
+    .world-tour-section>div:nth-child(3)>div{
+        left: 9.5rem;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        transition: left 0.14s ease-out;
+    } 
+
+    .world-tour-section>div:nth-child(3):hover>div{
+        left: 9.7rem;
+    }
+
+    .world-tour-section>div:nth-child(3)>div>svg{
+        width: 1.25rem;
+        margin: 0;
+        padding: 0;
     }
 
     .world-tour-section>div:nth-child(4){
