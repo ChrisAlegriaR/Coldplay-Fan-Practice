@@ -752,10 +752,22 @@
         padding: 0;
     }
 
+    /* ~Footer */
     footer{
-        height: 27.5vh;
+        height: 10.5rem;
         background-color: #003463;
     }
+
+    footer>div:first-child{
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+    }
+
+    footer>div:first-child>img{
+        width: 60vw;
+    }
+
     /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
     /* ! width 899px Styles. */
     @media (max-width: 899px){    
