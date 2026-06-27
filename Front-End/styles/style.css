@@ -573,12 +573,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: width 0.14s ease-out;
+        transition: width 0.14s ease-out, background-color 0.14s ease-out;
         cursor: pointer;
     }
 
     .world-tour-section>div:nth-child(3):hover{
         width: 16.60%;
+        background-color: rgba(255, 255, 255, 0.438);
     }
 
     .world-tour-section>div:nth-child(3)>p{
@@ -703,18 +704,18 @@
         background-color: rgba(255, 255, 255, 0.309);
         border-radius: 20px;
         position: absolute;
-        display: flex;
         justify-content: center;
         align-items: center;
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: width 0.14s ease-out;
+        transition: width 0.20s linear, background-color 0.20s linear;
         cursor: pointer;
     }
 
     .mailer-section>div:nth-child(3):hover{
-        width: 16.60%;
+        width: 12.09%;
+        background-color: rgba(255, 255, 255, 0.438);
     }
 
     .mailer-section>div:nth-child(3)>p{
@@ -724,7 +725,7 @@
     
     .mailer-section>div:nth-child(3)>div{
         bottom: 12%;
-        left: 9.6rem;
+        right: 2.5rem;
         position: absolute;
         padding: 0;
         margin: 0;
@@ -732,7 +733,7 @@
     } 
 
     .mailer-section>div:nth-child(3):hover>div{
-        left: 9.8rem;
+        right: 2.4rem;
         padding: 0;
         margin: 0;
     }
