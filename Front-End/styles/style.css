@@ -636,6 +636,7 @@
         margin: 0 13px;
         box-sizing: border-box;
         padding: 1.4rem 0 0 0;
+        margin-bottom: 3.75rem;
         background: linear-gradient(
             to top right, 
             rgba(0, 52, 99, 0.18) 0%,     
@@ -645,7 +646,6 @@
         );
         backdrop-filter: blur(1px);
         -webkit-backdrop-filter: blur(1px); 
-        margin-bottom: 9.8vh;
         position: relative;
         display: flex;
         flex-direction: column;
