@@ -810,6 +810,19 @@
         width: 49vw;   
     }
 
+    footer>div:nth-child(2){
+        position: absolute;
+        overflow-y: hidden; 
+        overflow-x: hidden; 
+        bottom: 66.5%;
+        right: 15.8vw;
+        z-index: 1;
+    }
+
+    footer>div:nth-child(2)>img{
+        width: 7.5rem;   
+    }
+
     /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
     /* ! width 899px Styles. */
     @media (max-width: 899px){    
