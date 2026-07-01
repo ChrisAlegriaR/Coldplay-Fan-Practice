@@ -822,6 +822,39 @@
         width: 7.5rem;   
     }
 
+    .coldplay-social-media {
+        display: flex;  
+        padding-top: 1.58rem;
+        padding-left: 1.40rem;
+    }
+
+    .coldplay-social-media>div {
+        margin-right: 0.89rem;
+        width: 1.86rem;
+        height: 1.89rem;
+        border: .1rem solid rgba(255, 255, 255, .25);;
+        border-radius: 100%;
+    }
+/* 
+    .coldplay-social-media>div:hover{
+        width: 3.2rem;
+        height: 3.2rem;
+    } */
+
+    .coldplay-social-media>div>a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .coldplay-social-media>div> a>svg {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
     /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
     /* ! width 899px Styles. */
     @media (max-width: 899px){    
