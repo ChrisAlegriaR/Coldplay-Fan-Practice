@@ -852,8 +852,9 @@
     }
 
     .coldplay-social-media>div:hover::before {
-        transform: scale(1.2); 
-        border-color: rgba(255, 255, 255, 0.75);
+        transform: scale(1.1); 
+        border-color: rgb(255, 255, 255);
+        border-width: .12rem;
     }
 
     .coldplay-social-media>div>a {
@@ -866,10 +867,48 @@
         z-index: 2; 
     }
 
-    .coldplay-social-media>div>a>svg {
+    .coldplay-social-media>div>a>svg{
         display: block;
         margin: 0;
         padding: 0;
+        fill: white;
+        transition: fill 0.2s linear, transform 0.2s linear;
+    }
+
+    .coldplay-social-media>div:hover>a>svg {
+        transform: scale(1.04); 
+    }
+
+    .coldplay-social-media>div:nth-child(1):hover>a>svg{
+        fill: #55ffd1;
+    }
+
+    .coldplay-social-media>div:nth-child(2):hover>a>svg{
+        fill: #55d8ff;
+    }
+
+    .coldplay-social-media>div:nth-child(3):hover>a>svg{
+        fill: #9655ff;
+    }
+
+    .coldplay-social-media>div:nth-child(4):hover>a>svg{
+        fill: #f955ff;
+    }
+
+    .coldplay-social-media>div:nth-child(5):hover>a>svg{
+        fill: #ff3472;
+    }
+
+    .coldplay-social-media>div:nth-child(6):hover>a>svg{
+        fill: #ffb755;
+    }
+
+    .coldplay-social-media>div:nth-child(7):hover>a>svg{
+        fill: #fff855;
+    }
+
+    .coldplay-social-media>div:nth-child(8):hover>a>svg{
+        fill: #55ffd1;
     }
 
     /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
