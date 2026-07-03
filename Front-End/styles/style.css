@@ -928,8 +928,16 @@
         align-content: center;
     }
 
-    .credits-section>div>img{
+    .credits-section>div>img {
         opacity: 0.70;
+        cursor: pointer;
+        filter: contrast(1) brightness(1);
+        transition: opacity 0.3s ease, filter 0.3s ease;
+    }
+
+    .credits-section>div>img:hover {
+        opacity: 1;
+        filter: contrast(0) brightness(2);
     }
 
     .credits-section>div:nth-child(1)>img:nth-child(1){
@@ -945,19 +953,66 @@
         margin: 0;
         padding: 0;
     }
-
+    
     .credits-section>div:nth-child(1)>img:nth-child(3){
         width: 4.5rem;
         height: auto;
         margin: 0;
         padding: 0;
     }
-
+    
     .credits-section>div:nth-child(2){
-        height: 100%;
-        width: 20rem;
+        height: 105%;
+        padding-left: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
+    .credits-section>div:nth-child(2)>div>div{
+        cursor: pointer;
+    }
+
+    .credits-section>div:nth-child(2) p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.62rem;
+        font-weight: bold;
+        color: #8099b1;
+        margin: 0;
+        padding: 0;
+        transition: color 0.2s linear;
+    }
+
+    .credits-section>div:nth-child(2)>div>div:hover>p{
+        color: #ffffffd6;
+    }
+
+    .credits-section>div:nth-child(2)>div:nth-child(1){
+        display: flex;
+    }
+
+    .credits-section>div:nth-child(2)>div:nth-child(1)>div{
+        height: 0.5rem;
+        border-right: .15rem solid rgba(255, 255, 255, .25);
+        padding: 0 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: color 0.2s linear;
+    }
+
+    .credits-section>div:nth-child(2)>div:nth-child(1)>div:hover{
+        border-color: #ffffffd6;
+    }
+
+
+    .credits-section>div:nth-child(2)>div:nth-child(1)>div:first-child{
+        padding-left: 0;
+    }
+
+    .credits-section>div:nth-child(2)>div:nth-child(1)>div:last-child{
+        border-right: none;
+    }
 
     /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
     /* ! width 899px Styles. */
